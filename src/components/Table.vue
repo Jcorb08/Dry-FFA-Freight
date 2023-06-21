@@ -35,7 +35,6 @@ function capitalize(str) {
 table {
   border: 2px solid #42b983;
   border-radius: 3px;
-  /* background-color: #; */
   width: 100%;
 }
 
@@ -44,21 +43,11 @@ th {
   color: #fff;
 }
 
-td {
-  /* background-color: #f9f9f9; */
-}
-
 th,
 td {
   min-width: 120px;
   padding: 10px 20px;
 }
 
-th.active {
-  color: #fff;
-}
-
-th.active .arrow {
-  opacity: 1;
-}
+tr:nth-child(even) {background-color: #f2f2f2;} 
 </style>

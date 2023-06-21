@@ -158,6 +158,7 @@ header {
 
 main {
   margin-top: 10rem;
+  background-color: white;
 }
 
 h1 {
@@ -181,6 +182,10 @@ p {
   text-align: center;
 }
 
+.greetings p {
+  color: white;
+}
+
 .item {
   margin-top: 2rem;
   display: flex;
@@ -201,6 +206,9 @@ h2 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
-  color: var(--color-heading);
+}
+
+h3 {
+  margin: 0.4rem 0;
 }
 </style>
